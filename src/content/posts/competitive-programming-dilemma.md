@@ -3,7 +3,10 @@ title: "Competitive Programming dilemma"
 pubDatetime: 2021-07-08T00:00:00+05:30
 description: "Competitive programming can be tricky when it’s your starting stage and I still feel it. There are some methodologies I used to solve problems during a contest."
 tags: ["Competitive Programming", "CP", "Engineering"]
+ogImage: "@/assets/images/cp.jpeg"
+featured: true
 ---
+
 Competitive programming can be tricky when it’s your starting stage and I still feel it. There are some methodologies I used to solve problems during a contest.
 
 <!-- ![blog image](../assets/images/cp.jpeg) -->
@@ -119,11 +122,11 @@ signed main(){
         int a,b;cin>>a>>b;
 
         if(a == b)
-            cout<<0<<endl; 
+            cout<<0<<endl;
         else{
             node *an = new node(a);
             node *bn = new node(b);
-            
+
             solve(an);
             solve(bn);
 
@@ -152,6 +155,7 @@ signed main(){
 ```
 
 Solution Based on other logic:
+
 ```cpp
 #include<bits/stdc++.h>
 #include<string>
